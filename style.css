@@ -1,0 +1,208 @@
+body{
+    font-family: 'Nunito', sans-serif;
+    margin: 0;
+}
+section{
+    height: 80vh;
+}
+
+/* profile section */
+.home{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr;
+    background-color: #002F7B;
+}
+.profile{
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;    
+}
+#profile-container h1{
+    color: #AFEB8F;
+    font-size: 3rem;
+    letter-spacing: 2px;
+}
+
+#profile-container  h2{
+    background-color: white;
+    padding: 5px;
+    border: 0px;
+    border-radius: 10px;
+    color: #002F7B;
+}
+.profile-img{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+/* about me */
+.about{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr;
+    background-color: #AFEB8F;
+}
+.about-img{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.about-content{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #002F7B;
+}
+
+/* education */
+.education{
+    height: auto;
+    margin-bottom: 100px;
+}
+.education >h1{
+    color: #002F7B;
+    font-size: 2rem;
+}
+.edu-box{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    gap: 40px;
+   
+    
+}
+.ed-container{
+    height: 200px;
+    width: 200px;
+    align-items: center;
+    background-color: #002F7B;
+    border: 0px;
+    border-radius: 20px;
+    
+}
+.ed-container h3{
+    color: white;
+    margin-left: 20px;
+}
+.ed-container p{
+    color: white;
+    margin-left: 20px;
+}
+.ed-container h2{
+    color: #AFEB8F;
+    margin-left: 20px;
+}
+
+
+/* skills */
+.skills{
+    background-color: #002F7B;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr;
+    color: white;
+}
+.skill-h>h1{
+    font-size: 2rem;
+}
+.skill-h{
+    margin-top: 80px;
+    margin-left: 50px;
+}
+.skill-level{
+    margin-left: 40px;
+    margin-top: 80px;
+}
+.skill-level p{
+    font-size: 1.2rem;
+    margin-top: 10px;
+}
+.skill-level span{
+    background-color: white;
+    display: block;
+    width: 70%;
+    height: 15px;
+    border: 0px;
+    border-radius: 10px;
+}
+.skill-level i{
+    background-color: #AFEB8F;
+    display: block;
+    width: 80%;
+    height: 15px;
+    border: 0px;
+    border-radius: 10px;
+}
+
+/* projects */
+.projects{
+    background-color: #AFEB8F;
+    color: #002F7B;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    align-items: center;
+
+}
+.project-container{
+    height: 200px;
+    width: 200px;
+    margin: 10px;
+}
+.project-container p{
+    font-size: 1.2rem;
+}
+
+
+
+/* contact */
+.contact{
+    background-color: #002F7B;
+    color: white;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 2fr;
+}
+.contact >h1{
+    grid-column: span 2;
+    margin-left: 50px;
+    font-size: 2rem;
+}
+.address{
+    margin-left: 50px ;
+    margin-top: 100px;
+}
+.address h1{
+    color: #AFEB8F;
+    
+}
+.address p{
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+.connect ul{
+    list-style: none;
+    padding: 0;
+    display: flex;
+    gap: 15px;
+}
+.connect{
+    margin-top: 100px;
+    margin-left: 50px;
+}
+.connect >h2{
+    background-color: #AFEB8F;
+    color: #002F7B;
+    border: 0px;
+    border-radius: 10px;
+    padding-left: 10px;
+    width: 70%;
+}
+
+
+
+
